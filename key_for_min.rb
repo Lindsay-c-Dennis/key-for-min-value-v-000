@@ -7,8 +7,7 @@ def key_for_min_value(name_hash)
     value << value
   end
   values.inject do |memo, value|
-    
-    end
+    memo <=> value
   end
   name_hash[low_value]
 end
